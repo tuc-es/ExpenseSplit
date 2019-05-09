@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ExpenseSplit</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">ExpenseSplit</string>
+    <string name="nav_header_subtitle">The expense splitter application</string>
+    <string name="nav_header_desc">Options</string>
+    <string name="action_settings">Settings</string>
+</resources>

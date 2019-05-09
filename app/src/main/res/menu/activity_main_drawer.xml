@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    tools:ignore="ExtraText">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/MenuItemSelectAccount"
+            android:icon="@android:drawable/ic_menu_manage"
+            android:title="Select Team" />
+        <item
+            android:id="@+id/MenuItemNewTeam"
+            android:icon="@android:drawable/ic_menu_add"
+            android:title="New Team" />
+        <item
+            android:id="@+id/MenuItemOfflineActions"
+            android:icon="@android:drawable/ic_menu_send"
+            android:title="Actions not yet executed" />
+        <item
+            android:id="@+id/MenuItemTeamAdministration"
+            android:icon="@android:drawable/ic_menu_more"
+            android:title="Team Administration" />
+    </group>
+
+    <item android:title="Expenses">
+        <menu>
+            <item
+                android:id="@+id/MenuItemOverview"
+                android:icon="@android:drawable/ic_menu_compass"
+                android:title="Overview" />
+            <item
+                android:id="@+id/MenuItemExpenseList"
+                android:icon="@android:drawable/ic_menu_agenda"
+                android:title="List of Expenses" />
+            <item
+                android:id="@+id/MenuItemNonApprovedExpenses"
+                android:icon="@android:drawable/ic_menu_view"
+                android:title="Expenses to be Approved" />
+            <item
+                android:id="@+id/MenuItemAddExpense"
+                android:icon="@android:drawable/ic_menu_share"
+                android:title="Add Expense" />
+            <item
+                android:id="@+id/MenuItemTrackReimbursement"
+                android:icon="@android:drawable/ic_menu_directions"
+                android:title="Track Reimbursement" />
+        </menu>
+    </item>
+
+</menu>
